@@ -3,7 +3,7 @@
 # run apt-get update && \
 # apt-get -y install apache2
 
-# run echo 'Docker Container Application ---> 1.' > /var/www/html/index.html
+# run echo 'Docker Container Application 1.' > /var/www/html/index.html
 
 # run mkdir /webapp
 
@@ -22,7 +22,7 @@ FROM ubuntu:18.04
 RUN apt-get update && \
 apt-get -y install apache2
 
-RUN echo 'Docker Container Application ----> 2.' > /var/www/html/index.html
+RUN echo 'Docker Container Application  2.' > /var/www/html/index.html
 
 RUN mkdir /webapp
 
