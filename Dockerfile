@@ -10,7 +10,7 @@ run mkdir /webapp
 run echo './etc/apache2/envars' > /webapp/run_http.sh && \
   echo 'mkdir -p /var/run/apache2' >> /webapp/run_http.sh && \
   echo 'mkdir -p /var/lock/apache2' >> /webapp/run_http.sh && \
-  ehco '/usr/sbin/apache2 -D FOREGROUND' >> /webapp/run_http.sh && \
+  echo '/usr/sbin/apache2 -D FOREGROUND' >> /webapp/run_http.sh && \
   chmod 744 /webapp/run_http.sh
 
 
